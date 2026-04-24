@@ -2,17 +2,7 @@ package com.narxoz.rpg.state;
 
 import com.narxoz.rpg.combatant.Hero;
 
-/**
- * Represents a state that a hero can be in, affecting its combat behavior and actions.
- *
- * States manage their own lifecycle — they may transition themselves based on internal logic
- * (e.g., a poison state might wear off after N turns) or remain active until externally changed.
- */
 public interface HeroState {
-
-    /**
-     * Returns the name of this state (e.g., "Normal", "Poisoned", "Stunned", "Berserk").
-     */
     String getName();
 
     /**
