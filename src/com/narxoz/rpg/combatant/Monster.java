@@ -1,9 +1,5 @@
 package com.narxoz.rpg.combatant;
 
-/**
- * A simple monster encountered in a tower floor.
- * Used by floors that have combat challenges.
- */
 public class Monster {
 
     private final String name;
